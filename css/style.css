@@ -326,17 +326,9 @@ footer {
 
 footer .twitter {
   position: absolute;
-  left: 50px;
-  display: inline-block;
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 120px;
-}
-
-footer .fb-like {
-  display: inline-block;
-  position: absolute;
   left: 0;
+  display: inline-block;
+  width: 120px;
 }
 
 footer .credit {
@@ -348,13 +340,6 @@ footer .credit {
 }
 
 /* MISC */
-
-.oldSite {
-  color: #eee;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-}
 
 /* Remove Typekit spam */
 .typekit-badge {
