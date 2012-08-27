@@ -130,7 +130,7 @@ nav a:active {
 /* LOGO */
 
 #logo {
-  background: url('../img/s.png') center left no-repeat;
+  background: url('../img/3D.png') center left no-repeat;
   color: #333;
   float: left;
   letter-spacing: 1px;
@@ -138,7 +138,7 @@ nav a:active {
 }
 
 #logo:hover {
-  background: url('../img/cake.png') center left no-repeat;
+  background: url('../img/3D_color.png') center left no-repeat;
 }
 
 a#logo:link,
