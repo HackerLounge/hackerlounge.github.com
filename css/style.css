@@ -321,6 +321,8 @@ a#logo:hover {
   -o-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
+  overflow: hidden;
+  position: relative;
   /*
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -341,7 +343,7 @@ a#logo:hover {
   -moz-filter: none;
 }
 
-.grid-item .social {
+.grid-item .mask {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -349,7 +351,7 @@ a#logo:hover {
 	opacity: 0;
 }
 
-.grid-item:hover .social {
+.grid-item:hover .mask {
 	opacity: 1;
 }
 
