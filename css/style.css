@@ -349,10 +349,19 @@ a#logo:hover {
 	left: 0;
 	width: 150px;
 	opacity: 0;
+	text-align: center;
+	background: rgba( 255, 255, 255, 0.5 );
+	font-family: adelle, Georgia, serif;
+	font-size: 12px;
+	padding: 5px;
 }
 
 .grid-item:hover .mask {
 	opacity: 1;
+}
+
+.grid-item .social img {
+	width: auto;
 }
 
 .officers h2 {
