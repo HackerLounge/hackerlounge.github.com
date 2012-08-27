@@ -300,13 +300,13 @@ a#logo:hover {
   text-align: justify;
 }
 
-/* OFFICERS */
+/* ABOUT PAGE */
 
 .officers h1 {
   text-align: center;
 }
 
-.officers img {
+.grid-item {
   border: 3px solid #000;
   float: left;
   height: 200px;
@@ -321,7 +321,7 @@ a#logo:hover {
   -o-transition: filter 1s; /* Opera */
 }
 
-.officers img:hover {
+.grid-item:hover {
   filter: none;
   -webkit-filter: grayscale(0); /* Google Chrome & Safari 6+ */
 }
