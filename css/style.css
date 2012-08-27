@@ -283,6 +283,10 @@ a#logo:hover {
 
 /* OFFICERS */
 
+.officers h1 {
+  text-align: center;
+}
+
 .officers img {
   border: 3px solid #000;
   float: left;
