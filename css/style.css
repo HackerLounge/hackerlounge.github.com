@@ -24,8 +24,8 @@ b, strong { font-weight: bold; }
 /* =Blockquote
 -------------------------------------------------------------- */
 blockquote {
-  background:#f9f9f9;
-  border:2px solid #d6d6d6;
+  background:#fafafa;
+  border:2px solid #000;
 }
 
 blockquote p {
