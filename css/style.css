@@ -296,6 +296,10 @@ a#logo:hover {
   filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
   filter: gray; /* IE6-9 */
   -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */
+  transition: filter 1s;
+  -moz-transition: filter 1s; /* Firefox 4 */
+  -webkit-transition: filter 1s; /* Safari and Chrome */
+  -o-transition: filter 1s; /* Opera */
 }
 
 .officers img {
