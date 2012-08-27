@@ -148,11 +148,11 @@ nav a:active {
   float: left;
   letter-spacing: 1px;
   padding-left: 55px;
-  filter: grayscale(0%);
-  -webkit-filter: grayscale(0%);
-  -o-filter: grayscale(0%);
-  -ms-filter: grayscale(0%);
-  -moz-filter: grayscale(0%);
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
   transition: all 4s;
   -webkit-transition: all 4s;
   -o-transition: all 4s;
