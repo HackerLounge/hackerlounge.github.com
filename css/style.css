@@ -161,7 +161,6 @@ nav a:active {
 }
 
 #logo:hover {
-  background: url('../img/3D_color.png') center left no-repeat;
   filter: grayscale(0%);
   -webkit-filter: grayscale(0%);
   -o-filter: grayscale(0%);
