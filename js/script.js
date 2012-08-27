@@ -1,3 +1,50 @@
+$(function() {
+  addSubscribeHandler();
+
+  if ($('body').attr('id') == 'home') {
+    addDateHighlighter('.events', 'events');
+    addDateHighlighter('.techtalks', 'speakers');
+  }
+});
+
+function addSubscribeHandler() {
+  $('.subscribe').click(function(e) {
+    $('.subscribeBox').slideDown();
+    e.preventDefault();
+  });
+
+  $('.subscribeBox').submit(function(e) {
+    $('.subscribeBox [type="submit"]').attr('disabled', 'disabled');
+
+    var url = 'http://hackut.us5.list-manage.com/subscribe/post?u=ad5cbe74e8c05f4b8c61f896c&amp;id=0e1faa67d8';
+
+    $.ajax(url, {
+      dataType: "jsonp",
+      type: "POST",
+      data: {
+        EMAIL: $('.subscribeBox [name="email"]').val()
+      }
+    }).success(function(e) {
+      $('.subscribeBox').slideUp(function() {
+        $('.subscribeBox')
+          .empty()
+          .html('<h2 style="color: green;">Success! Click the link in your email to confirm.</h2>')
+          .slideDown();
+      });
+
+    }).error(function(e) {
+      alert('There was an error and you were NOT subscribed to the mailing list.');
+
+      $('.subscribeBox [type="submit"]')
+        .removeAttr('disabled');
+    });
+
+    e.preventDefault();
+    e.stopPropagation();
+    return false;
+  });
+}
+
 /**
  * Makes past events (on the homepage) dim, so that we can keep them
  * there, but make them stand out less.
