@@ -360,8 +360,14 @@ a#logo:hover {
 	opacity: 1;
 }
 
+.grid-item .social {
+	left: 5px;
+	position: absolute;
+	top: -100px;
+}
 .grid-item .social img {
 	width: auto;
+	display: block;
 }
 
 .officers h2 {
