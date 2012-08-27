@@ -302,7 +302,7 @@ a#logo:hover {
   -o-transition: filter 1s; /* Opera */
 }
 
-.officers img {
+.officers img:hover {
   filter: none;
   -webkit-filter: grayscale(0); /* Google Chrome & Safari 6+ */
 }
