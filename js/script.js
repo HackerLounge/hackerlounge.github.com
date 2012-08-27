@@ -24,20 +24,16 @@ function addSubscribeHandler() {
       data: {
         EMAIL: $('.subscribeBox [name="email"]').val()
       }
-    }).success(function(e) {
-      $('.subscribeBox').slideUp(function() {
-        $('.subscribeBox')
-          .empty()
-          .html('<h2 style="color: green;">Success! Click the link in your email to confirm.</h2>')
-          .slideDown();
-      });
-
-    }).error(function(e) {
-      alert('There was an error and you were NOT subscribed to the mailing list.');
-
-      $('.subscribeBox [type="submit"]')
-        .removeAttr('disabled');
     });
+    
+    /* Hacky (we always say success, jsonp will get an error) */
+    $('.subscribeBox').slideUp(function() {
+      $('.subscribeBox')
+        .empty()
+        .html('<h2 style="color: green;">Success! Click the link in your email to confirm.</h2>')
+        .slideDown();
+    });
+    
 
     e.preventDefault();
     e.stopPropagation();
