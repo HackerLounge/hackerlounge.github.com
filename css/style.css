@@ -293,6 +293,14 @@ a#logo:hover {
   height: 200px;
   margin: 8px 10px 30px 0;
   width: 150px;
+  filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */
+}
+
+.officers img {
+  filter: none;
+  -webkit-filter: grayscale(0); /* Google Chrome & Safari 6+ */
 }
 
 .officers h2 {
