@@ -148,10 +148,30 @@ nav a:active {
   float: left;
   letter-spacing: 1px;
   padding-left: 55px;
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  transition: all 4s;
+  -webkit-transition: all 4s;
+  -o-transition: all 4s;
+  -ms-transition: all 4s;
+  -moz-transition: all 4s;
 }
 
 #logo:hover {
   background: url('../img/3D_color.png') center left no-repeat;
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -moz-transition: all 0.5s;
 }
 
 a#logo:link,
