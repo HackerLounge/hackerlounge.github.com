@@ -148,7 +148,7 @@ nav a:active {
   float: left;
   letter-spacing: 1px;
   padding-left: 55px;
-  filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+  filter: url('../img/filters.svg#grayscale'); /* Firefox 3.5+ */
   filter: gray; /* IE6-9 */
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
@@ -314,7 +314,7 @@ a#logo:hover {
   height: 145px;
   margin: 8px 10px 30px 0;
   width: 150px;
-  filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+  filter: url('../img/filters.svg#grayscale'); /* Firefox 3.5+ */
   filter: gray; /* IE6-9 */
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
