@@ -24,8 +24,7 @@ b, strong { font-weight: bold; }
 /* =Blockquote
 -------------------------------------------------------------- */
 blockquote {
-  background:#fafafa;
-  border:2px solid #000;
+  border-left: 6px solid #000;
 }
 
 blockquote p {
@@ -34,7 +33,14 @@ blockquote p {
   font-size:18px;
   line-height:26px;
   margin:20px;
-  padding:0 0 10px 12px;
+  padding: 6px 0 10px 6px;
+}
+blockquote cite {
+  font-style: normal;
+}
+blockquote cite:before {
+  content: "\2014";
+  padding-right: 2px;
 }
 dfn { font-style: italic; }
 hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
