@@ -206,6 +206,10 @@ a#logo:hover {
   font-weight: normal;
   margin: 30px 0;
 }
+.leadin-small {
+  font-size: 18px;
+  margin: 20px 0;
+}
 
 .leadin:first-child {
   margin-top: 50px;
@@ -350,10 +354,11 @@ a#logo:hover {
 	width: 150px;
 	opacity: 0;
 	text-align: center;
-	background: rgba( 255, 255, 255, 0.5 );
+	background: rgba( 255, 255, 255, 0.9 );
 	font-family: adelle, Georgia, serif;
 	font-size: 12px;
-	padding: 5px;
+	padding: 5px 0px;
+  font-weight: bold;
 }
 
 .grid-item:hover .mask {

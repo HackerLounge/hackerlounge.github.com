@@ -1,5 +1,5 @@
 $(function() {
-  addSubscribeHandler();
+  //addSubscribeHandler();
 
   if ($('body').attr('id') == 'home') {
     addDateHighlighter('.events', 'events');
