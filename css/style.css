@@ -318,7 +318,13 @@ a#logo:hover {
   text-align: center;
 }
 
+.grid {
+  margin: 0 auto;
+  display: inline-block;
+}
+
 .grid-item {
+  white-space: nowrap;
   border: 3px solid #000;
   float: left;
   height: 145px;
